@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOGA - Seni Bela Diri Islami</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+            background: url('background-image-url.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.7); /* Transparansi hitam */
+            padding: 50px;
+            max-width: 800px;
+            margin: 100px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: crimson;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.8;
+        }
+
+        a {
+            color: crimson;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sejarah dan Kiprah NOGA</h1>
+        <p>
+            Di tengah pesatnya perkembangan seni bela diri di Indonesia, <strong>NOGA (Nur Raga)</strong> berbasis di 
+            <strong>Desa Anjani, Kecamatan Suralaga, Kabupaten Lombok Timur</strong>, tampil sebagai salah satu yang istimewa. 
+            Tidak hanya fokus pada penguasaan teknik bela diri, NOGA juga menawarkan pendekatan unik dengan mengintegrasikan 
+            <strong>nilai-nilai Islami</strong> dalam setiap aspek pelatihannya.
+        </p>
+        <p>
+            Sejak didirikan pada tahun 2000 oleh <strong>Syuhada Ahmad</strong>, NOGA telah bertransformasi dari sebuah komunitas kecil 
+            menjadi organisasi yang berpengaruh di wilayah Lombok Timur. Dengan tagline <em>"Membangun Karakter melalui Bela Diri Islami"</em>, 
+            perguruan ini menanamkan akhlak mulia kepada anggotanya.
+        </p>
+        <a href="#learn-more">Pelajari Lebih Lanjut</a>
+    </div>
+</body>
+</html>
