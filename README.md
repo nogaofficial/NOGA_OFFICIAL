@@ -144,7 +144,7 @@
             <p>
                 <strong>Email:</strong> <a href="mailto:nogaofficial@gmail.com">nogaofficial@gmail.com</a><br>
                 <strong>Instagram:</strong> <a href="https://www.instagram.com/nogaofficial" target="_blank">@nogaofficial</a><br>
-                <strong>TikTok:</strong> <a href="https://www.tiktok.com/@nogaofficial1" target="_blank">@nogaofficial1</a>
+                <strong>TikTok:</strong> <a href="https://www.tiktok.com/@noga_official1?_t=8sLm0zAyo4d&_r=1" target="_blank">@noga_official1</a>
             </p>
         </div>
     </div>
