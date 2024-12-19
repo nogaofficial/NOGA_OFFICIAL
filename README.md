@@ -1,4 +1,3 @@
-# NOGA_OFFICIAL
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,16 +50,25 @@
             font-size: 2em;
             margin-bottom: 10px;
         }
-        section p {
+        section p, section ul {
             font-size: 1.2em;
             line-height: 1.6;
+            text-align: left;
         }
-        .about, .program, .contact {
-            margin: 20px 0;
+        section ul {
+            list-style: none;
+            padding: 0;
+        }
+        section ul li {
+            margin: 10px 0;
+        }
+        .about, .program, .history, .contact {
+            margin: 20px auto;
             padding: 20px;
             background: rgba(0, 0, 0, 0.5);
             border: 2px solid red;
             border-radius: 10px;
+            max-width: 800px;
         }
         footer {
             text-align: center;
@@ -85,6 +93,7 @@
     </header>
     <nav>
         <a href="#about">Tentang Kami</a>
+        <a href="#history">Sejarah</a>
         <a href="#program">Program</a>
         <a href="#contact">Kontak</a>
     </nav>
@@ -93,9 +102,24 @@
         <p>
             NOGA (Nur Raga) adalah perguruan seni bela diri Islami berbasis di Desa Anjani, Lombok Timur. 
             Didirikan pada tahun 2000 oleh Syuhada Ahmad, perguruan ini berfokus pada penguatan fisik dan spiritual 
-            dengan prinsip-prinsip Islam.
+            dengan prinsip-prinsip Islam. Keunikan kami terletak pada perpaduan seni bela diri dengan nilai-nilai luhur Islami.
         </p>
-        <p>Keunikan kami terletak pada perpaduan seni bela diri dengan nilai-nilai luhur Islami.</p>
+    </section>
+    <section id="history" class="history">
+        <h2>Sejarah dan Kiprah NOGA</h2>
+        <p>
+            Didirikan pada tahun 2000 oleh Syuhada Ahmad, NOGA memulai perjalanan sebagai komunitas kecil yang kini 
+            telah menjadi organisasi besar di Lombok Timur. Nama "NOGA" mencerminkan nilai-nilai inti: Nabi, Orang Tua, Guru, 
+            dan Aulia Allah SWT. 
+        </p>
+        <p>
+            Sistem latihan NOGA dirancang untuk membentuk fisik, spiritual, dan karakter melalui 5 tingkatan: Raga Suci (RS), 
+            Pembangunan Diri (PD), Nurani Qalbu (NQ), Taqwa Batin (TB), dan Kemurnian Qalbu (Quin).
+        </p>
+        <p>
+            Dengan dukungan para Tuan Guru dan masyarakat, NOGA kini aktif dalam kegiatan sosial, keagamaan, serta pengembangan 
+            generasi muda.
+        </p>
     </section>
     <section id="program" class="program">
         <h2>Program Kami</h2>
