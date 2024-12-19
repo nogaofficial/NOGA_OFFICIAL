@@ -1,147 +1,169 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NOGA Official - Bela Diri Islami</title>
+    <title>NOGA OFFICIAL</title>
     <style>
+        /* Mengatur font global */
         body {
-            background: linear-gradient(to bottom, black, darkred);
-            color: white;
-            font-family: 'Arial', sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background: linear-gradient(135deg, #9E0E0F, #1D1D1D); /* Latar belakang merah darah dan hitam */
+            color: white;
+            text-align: center;
         }
+
+        /* Style untuk header */
         header {
-            text-align: center;
             padding: 20px;
-            background: rgba(0, 0, 0, 0.8);
-            border-bottom: 2px solid red;
+            background-color: rgba(0, 0, 0, 0.7);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
         }
+
         header h1 {
-            font-size: 2.5em;
+            font-size: 36px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
             margin: 0;
         }
-        header p {
-            margin: 10px 0 0;
-            font-style: italic;
-            font-size: 1.2em;
+
+        header h2 {
+            font-size: 20px;
+            font-weight: normal;
+            margin-top: 10px;
         }
+
+        /* Navigasi */
         nav {
-            display: flex;
-            justify-content: center;
-            padding: 10px;
-            background: rgba(0, 0, 0, 0.7);
+            margin-top: 30px;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 15px;
         }
+
         nav a {
+            text-decoration: none;
             color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 1.2em;
+            margin: 0 20px;
+            font-size: 18px;
         }
+
         nav a:hover {
-            color: red;
+            text-decoration: underline;
         }
-        section {
-            padding: 20px;
-            text-align: center;
-        }
-        section h2 {
-            font-size: 2em;
-            margin-bottom: 10px;
-        }
-        section p, section ul {
-            font-size: 1.2em;
-            line-height: 1.6;
-            text-align: left;
-        }
-        section ul {
-            list-style: none;
-            padding: 0;
-        }
-        section ul li {
-            margin: 10px 0;
-        }
-        .about, .program, .history, .contact {
-            margin: 20px auto;
-            padding: 20px;
+
+        /* Konten utama */
+        .content {
+            margin-top: 50px;
+            padding: 30px;
             background: rgba(0, 0, 0, 0.5);
-            border: 2px solid red;
-            border-radius: 10px;
-            max-width: 800px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+            max-width: 1200px;
+            margin: 50px auto;
         }
+
+        .section-title {
+            font-size: 28px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .section-content {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        /* Bayangan gerakan silat */
+        .shadow-effect {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.1;
+            pointer-events: none;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://via.placeholder.com/600x400'); /* Ganti dengan gambar gerakan silat */
+            background-size: cover;
+            background-position: center;
+            animation: shadowAnimation 15s infinite;
+        }
+
+        @keyframes shadowAnimation {
+            0% { opacity: 0.1; }
+            50% { opacity: 0.3; }
+            100% { opacity: 0.1; }
+        }
+
         footer {
-            text-align: center;
             padding: 20px;
-            background: rgba(0, 0, 0, 0.8);
-            border-top: 2px solid red;
+            background-color: rgba(0, 0, 0, 0.7);
+            font-size: 14px;
+            text-align: center;
+            position: relative;
+            margin-top: 50px;
         }
-        footer p {
-            font-size: 1em;
-            margin: 0;
-        }
+
         footer a {
-            color: red;
             text-decoration: none;
+            color: white;
         }
+
     </style>
 </head>
 <body>
+
     <header>
-        <h1>Welcome to NOGA Official</h1>
-        <p>"Membangun Karakter melalui Bela Diri Islami"</p>
+        <h1>NOGA OFFICIAL</h1>
+        <h2>“Membangun Karakter melalui Bela Diri Islami”</h2>
     </header>
+
     <nav>
         <a href="#about">Tentang Kami</a>
         <a href="#history">Sejarah</a>
         <a href="#program">Program</a>
         <a href="#contact">Kontak</a>
     </nav>
-    <section id="about" class="about">
-        <h2>Tentang Kami</h2>
-        <p>
-            NOGA (Nur Raga) adalah perguruan seni bela diri Islami berbasis di Desa Anjani, Lombok Timur. 
-            Didirikan pada tahun 2000 oleh Syuhada Ahmad, perguruan ini berfokus pada penguatan fisik dan spiritual 
-            dengan prinsip-prinsip Islam. Keunikan kami terletak pada perpaduan seni bela diri dengan nilai-nilai luhur Islami.
-        </p>
-    </section>
-    <section id="history" class="history">
-        <h2>Sejarah dan Kiprah NOGA</h2>
-        <p>
-            Didirikan pada tahun 2000 oleh Syuhada Ahmad, NOGA memulai perjalanan sebagai komunitas kecil yang kini 
-            telah menjadi organisasi besar di Lombok Timur. Nama "NOGA" mencerminkan nilai-nilai inti: Nabi, Orang Tua, Guru, 
-            dan Aulia Allah SWT. 
-        </p>
-        <p>
-            Sistem latihan NOGA dirancang untuk membentuk fisik, spiritual, dan karakter melalui 5 tingkatan: Raga Suci (RS), 
-            Pembangunan Diri (PD), Nurani Qalbu (NQ), Taqwa Batin (TB), dan Kemurnian Qalbu (Quin).
-        </p>
-        <p>
-            Dengan dukungan para Tuan Guru dan masyarakat, NOGA kini aktif dalam kegiatan sosial, keagamaan, serta pengembangan 
-            generasi muda.
-        </p>
-    </section>
-    <section id="program" class="program">
-        <h2>Program Kami</h2>
-        <ul>
-            <li><strong>Pelatihan Fisik:</strong> Seni bela diri tingkat dasar hingga lanjutan.</li>
-            <li><strong>Pembinaan Spiritual:</strong> Kajian Islam dan pembangunan akhlak.</li>
-            <li><strong>Kompetisi:</strong> Pertandingan bela diri Islami tahunan.</li>
-            <li><strong>Kegiatan Sosial:</strong> Bakti sosial untuk masyarakat sekitar.</li>
+
+    <div class="shadow-effect"></div> <!-- Elemen bayangan gerakan silat -->
+
+    <div class="content" id="about">
+        <h2 class="section-title">Tentang Kami</h2>
+        <p class="section-content">NOGA (Nur Raga) adalah perguruan seni bela diri Islami yang berbasis di Desa Anjani, Lombok Timur. Didirikan pada tahun 2000 oleh Syuhada Ahmad, perguruan ini berfokus pada penguatan fisik dan spiritual dengan prinsip-prinsip Islam. Keunikan kami terletak pada perpaduan seni bela diri dengan nilai-nilai luhur Islami.</p>
+    </div>
+
+    <div class="content" id="history">
+        <h2 class="section-title">Sejarah dan Kiprah NOGA</h2>
+        <p class="section-content">NOGA dimulai pada tahun 2000 sebagai komunitas kecil yang kini telah berkembang menjadi organisasi besar di Lombok Timur, dengan kontribusi dalam bidang sosial, keagamaan, dan pembinaan generasi muda.</p>
+        <p class="section-content"><strong>Makna Nama “NOGA”:</strong><br> • N: Nabi/Para Nabi<br> • O: Orang Tua<br> • G: Guru-Guru<br> • A: Anggota dan Aulia Allah SWT</p>
+    </div>
+
+    <div class="content" id="program">
+        <h2 class="section-title">Program Kami</h2>
+        <ul class="section-content">
+            <li>Pelatihan Fisik: Seni bela diri tingkat dasar hingga lanjutan.</li>
+            <li>Pembinaan Spiritual: Kajian Islam dan pembangunan akhlak.</li>
+            <li>Kompetisi: Pertandingan bela diri Islami tahunan.</li>
+            <li>Kegiatan Sosial: Bakti sosial untuk masyarakat sekitar.</li>
         </ul>
-    </section>
-    <section id="contact" class="contact">
-        <h2>Kontak Kami</h2>
-        <p>
-            Anda dapat menghubungi kami melalui media sosial atau langsung ke lokasi perguruan di Desa Anjani, 
-            Lombok Timur.
+    </div>
+
+    <div class="content" id="contact">
+        <h2 class="section-title">Kontak Kami</h2>
+        <p class="section-content">Untuk informasi lebih lanjut, Anda dapat menghubungi kami melalui media sosial atau langsung ke lokasi perguruan di Desa Anjani, Lombok Timur:</p>
+        <p class="section-content">
+            <strong>Email:</strong> <a href="mailto:nogaofficial@gmail.com">nogaofficial@gmail.com</a><br>
+            <strong>Instagram:</strong> <a href="https://www.instagram.com/nogaofficial" target="_blank">@nogaofficial</a><br>
+            <strong>TikTok:</strong> <a href="https://www.tiktok.com/@nogaofficial1" target="_blank">@nogaofficial1</a>
         </p>
-        <p><strong>Email:</strong> nogaofficial@gmail.com</p>
-        <p><strong>Instagram:</strong> <a href="https://instagram.com/nogaofficial" target="_blank">@nogaofficial</a></p>
-    </section>
+    </div>
+
     <footer>
-        <p>&copy; 2024 NOGA Official. All rights reserved.</p>
-        <p>Designed by <a href="https://github.com/yourusername" target="_blank">Your Name</a></p>
+        <p>Hak Cipta: © 2024 NOGA Official. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
