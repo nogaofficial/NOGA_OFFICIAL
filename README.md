@@ -1,4 +1,4 @@
-<NOGA!>
+<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -106,7 +106,7 @@
         <div class="news-item">
             <h3>Tentang Kami</h3>
             <p>
-                NOGA (Nur Raga) adalah perguruan seni bela diri Islami yang berbasis di Desa Anjani, Lombok Timur. Didirikan pada tahun 2000 oleh Syuhada Ahmad, perguruan ini berfokus pada penguatan fisik dan spiritual dengan prinsip-prinsip Islam. Keunikan kami terletak pada perpaduan seni bela diri dengan nilai-nilai luhur Islami.
+                NOGA (Nur Raga) adalah perguruan seni bela diri Islami yang berbasis di Desa Anjani, Lombok Timur. Didirikan pada tahun 2000 oleh Syuhada Ahmad, perguruan ini berfokus pada penguatan fisik dan spiritual dengan prinsip-prinsip Islam. Keunikan kami terletak pada perpaduan seni bela diri dengan nilai-nilai luhur Islami, yang tidak hanya bertujuan untuk mengasah keterampilan fisik, tetapi juga membentuk karakter anggota melalui pengajaran yang berbasis pada ajaran agama.
             </p>
         </div>
 
@@ -114,7 +114,7 @@
         <div class="news-item">
             <h3>Sejarah dan Kiprah NOGA</h3>
             <p>
-                NOGA dimulai pada tahun 2000 sebagai komunitas kecil yang kini telah berkembang menjadi organisasi besar di Lombok Timur. Perguruan ini memberikan kontribusi penting dalam bidang sosial, keagamaan, dan pembinaan generasi muda.
+                NOGA dimulai pada tahun 2000 sebagai komunitas kecil yang kini telah berkembang menjadi organisasi besar di Lombok Timur. Perguruan ini memberikan kontribusi penting dalam bidang sosial, keagamaan, dan pembinaan generasi muda. Selama lebih dari dua dekade, NOGA telah mencetak banyak anggota yang tidak hanya unggul dalam seni bela diri, tetapi juga menjadi pribadi yang berakhlak mulia dan berjiwa sosial.
             </p>
             <p><strong>Makna Nama “NOGA”:</strong><br>
                 • N: Nabi/Para Nabi<br>
@@ -139,7 +139,7 @@
         <div class="news-item">
             <h3>Kontak Kami</h3>
             <p>
-                Untuk informasi lebih lanjut, Anda dapat menghubungi kami melalui media sosial atau langsung ke lokasi perguruan di Desa Anjani, Lombok Timur:
+                Bagi Anda yang tertarik untuk bergabung atau membutuhkan informasi lebih lanjut mengenai kegiatan dan program di NOGA, Anda dapat menghubungi kami melalui beberapa cara berikut:
             </p>
             <p>
                 <strong>Email:</strong> <a href="mailto:nogaofficial@gmail.com">nogaofficial@gmail.com</a><br>
